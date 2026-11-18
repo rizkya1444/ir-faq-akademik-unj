@@ -221,3 +221,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data mentah PDF
+data/raw/*
+!data/raw/.gitkeep
+
+# Environment Python
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
